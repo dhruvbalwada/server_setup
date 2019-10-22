@@ -29,6 +29,8 @@ I added this to the ‘standard’ `.zshrc` file.
 - same with .bashrc (e.g. the modules are not loaded if a script runs in bash)
 (??? Do both steps need to be done or only one depending on what shell one has???)
 
+>>> at this point makes sense to go and install cookiecutter project, and use the cookiecutter science project template. https://github.com/jbusecke/cookiecutter-science-project
+
 ### File Structure
 - ~~follow dir structure outlined in (other file, needs link) and create `code` in home directory. ` mkdir code notebooks projects shared_data`~~
 Execute `setup_root.sh` from the `./code/conda_envs` directory
