@@ -5,12 +5,19 @@ jupyter labextension install dask-labextension @krassowski/jupyterlab_go_to_defi
 jupyter labextension install @pyviz/jupyterlab_pyviz @jupyterlab/toc @jupyterlab/github
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install @ryantam626/jupyterlab_code_formatter @jupyterlab/git
+jupyter labextension install @jupyterlab/google-drive
+jupyter labextension install @jupyterlab/github
+jupyter labextension install jupyterlab-drawio
 
+# jupyter serverextension enable --py jupyterlab_git
+# got some tips from the end of this page https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b
+
+jupyter labextension install @jupyterlab/git
+pip install jupyterlab-git
 jupyter serverextension enable --py jupyterlab_git
 
 pip install jupyterlab_snippets
 jupyter labextension install @quentinandre/jupyterlab_snippets
-
 
 pip install jupyterlab_code_formatter
 jupyter serverextension enable --py jupyterlab_code_formatter
